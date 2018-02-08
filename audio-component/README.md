@@ -13,6 +13,7 @@
 然后调用addMusic方法，
 
 ```javascript
+    // 再添加一段【循环播放】的音乐
     addAudio_1 () {
       this.$refs.audioComponent.addMusic({
           // 添加音频的名称
@@ -21,6 +22,7 @@
           loop: true
       })
     },
+    // 再添加一段【循环播放】的音乐
     addAudio_2 () {
   		this.$refs.audioComponent.addMusic({
 			  name: 'yao',
@@ -28,6 +30,7 @@
 			  loop: true
 		  })
     },
+    // 再再添加一段 【播放一次】的音乐
     addAudio_3 () {
       		this.$refs.audioComponent.addMusic({
     			  name: 'over',
@@ -35,6 +38,7 @@
     			  loop: false
     		  })
         },
+    // 删除第一次插入的一段    
     subAudio () {
 	    this.$refs.audioComponent.subMusic('yao')
     }
