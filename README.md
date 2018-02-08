@@ -3,7 +3,8 @@
 > this component can make it convenient to add an audio and delete an audio in a web page based by vue, which means you can play any number of audios at the same time
 
 
-这是一个添加背景音乐的组件，可以方便的暂停，播放，随意添加任意数量的背景音乐，暂停所有的背景音乐，重新播放所有的背景音乐
+这是一个添加背景音乐的组件，
+可以方便的暂停，播放，随意添加任意数量的背景音乐，暂停所有的背景音乐，重新播放所有的背景音乐
 
 使用比较简单，只需要引入该组件
 ```html
